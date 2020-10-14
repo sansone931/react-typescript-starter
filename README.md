@@ -6,9 +6,11 @@ A basic React app to start a new project.
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Webpack](https://webpack.js.org/)
-- [Jest](https://jestjs.io/)
-- [styled-components](https://www.typescriptlang.org/)
+- [styled-components](https://styled-components.com/)
+- [Prettier](https://prettier.io/) for code formatting
+- [ESLint](https://eslint.org/) for linting
+- [Webpack](https://webpack.js.org/) for bundling
+- [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/react) for testing
 
 ## Installation
 
