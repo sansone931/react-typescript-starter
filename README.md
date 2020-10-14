@@ -8,6 +8,7 @@ A basic React app to start a new project.
 - [TypeScript](https://www.typescriptlang.org/)
 - [Webpack](https://webpack.js.org/)
 - [Jest](https://jestjs.io/)
+- [styled-components](https://www.typescriptlang.org/)
 
 ## Installation
 
