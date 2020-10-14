@@ -19,4 +19,5 @@ A basic React app to start a new project.
 | ------------------- | ------------------------------------------------------------------ |
 | `npm start`         | Build app in development mode and serve at `http://localhost:8080` |
 | `npm run build`     | Build app to `dist/` in production mode                            |
+| `npm run lint`      | Run ESLint                                                         |
 | `npm run typecheck` | Check for TypeScript errors without emitting output                |
