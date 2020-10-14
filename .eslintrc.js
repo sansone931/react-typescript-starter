@@ -64,5 +64,10 @@ module.exports = {
       files: ['*.js'],
       env: { commonjs: true },
     },
+    {
+      files: ['*.test.ts', '*.test.tsx'],
+      plugins: ['jest'],
+      extends: ['plugin:jest/recommended', 'plugin:jest/style'],
+    },
   ],
 };
