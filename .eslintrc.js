@@ -66,8 +66,13 @@ module.exports = {
     },
     {
       files: ['*.test.ts', '*.test.tsx'],
-      plugins: ['jest'],
-      extends: ['plugin:jest/recommended', 'plugin:jest/style'],
+      plugins: ['jest', 'testing-library', 'jest-dom'],
+      extends: [
+        'plugin:jest/recommended',
+        'plugin:jest/style',
+        'plugin:testing-library/recommended',
+        'plugin:jest-dom/recommended',
+      ],
     },
   ],
 };
