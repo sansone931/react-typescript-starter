@@ -19,10 +19,11 @@ A basic React app to start a new project.
 
 ## Commands
 
-| Command             | Description                                                        |
-| ------------------- | ------------------------------------------------------------------ |
-| `npm start`         | Build app in development mode and serve at `http://localhost:8080` |
-| `npm run build`     | Build app to `dist/` in production mode                            |
-| `npm run test`      | Run Jest                                                           |
-| `npm run lint`      | Run ESLint                                                         |
-| `npm run typecheck` | Check for TypeScript errors without emitting output                |
+| Command                 | Description                                                                    |
+| ----------------------- | ------------------------------------------------------------------------------ |
+| `npm start`             | Build app in development mode and serve at `http://localhost:8080`             |
+| `npm run build`         | Build app to `dist/` in production mode                                        |
+| `npm run build:analyze` | Build app to `dist/` in production mode and run Webpack Bundle Analyzer server |
+| `npm run test`          | Run Jest                                                                       |
+| `npm run lint`          | Run ESLint                                                                     |
+| `npm run typecheck`     | Check for TypeScript errors without emitting output                            |
