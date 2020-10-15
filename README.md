@@ -25,5 +25,8 @@ A basic React app to start a new project.
 | `npm run build`         | Build app to `dist/` in production mode                                        |
 | `npm run build:analyze` | Build app to `dist/` in production mode and run Webpack Bundle Analyzer server |
 | `npm run test`          | Run Jest                                                                       |
+| `npm run test:watch`    | Run Jest in watch mode                                                         |
 | `npm run lint`          | Run ESLint                                                                     |
+| `npm run lint:fix`      | Run ESLint and automatically fix problems                                      |
+| `npm run format`        | Format files with Prettier                                                     |
 | `npm run typecheck`     | Check for TypeScript errors without emitting output                            |
