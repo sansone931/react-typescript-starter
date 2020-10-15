@@ -5,6 +5,6 @@ import { App } from './App';
 
 test('renders title', () => {
   const { getByText } = render(<App />);
-  const titleElement: HTMLElement = getByText('React TypeScript Starter');
-  expect(titleElement).toBeInTheDocument();
+  const titleElement = getByText('React TypeScript Starter');
+  expect(titleElement).toHaveStyleRule('color', '#0000cd');
 });

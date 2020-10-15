@@ -24,7 +24,7 @@ A basic React app to start a new project.
 | `npm start`             | Build app in development mode and serve at `http://localhost:8080`             |
 | `npm run build`         | Build app to `dist/` in production mode                                        |
 | `npm run build:analyze` | Build app to `dist/` in production mode and run Webpack Bundle Analyzer server |
-| `npm run test`          | Run Jest                                                                       |
+| `npm test`              | Run Jest                                                                       |
 | `npm run test:watch`    | Run Jest in watch mode                                                         |
 | `npm run lint`          | Run ESLint                                                                     |
 | `npm run lint:fix`      | Run ESLint and automatically fix problems                                      |
