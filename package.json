@@ -11,7 +11,9 @@
     "lint": "eslint **/*.{js,ts,tsx}",
     "lint:fix": "eslint --fix **/*.{js,ts,tsx}",
     "format": "prettier --write **/*.{js,ts,tsx,md,html,json}",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "storybook": "start-storybook -p 9000",
+    "build:storybook": "build-storybook"
   },
   "dependencies": {
     "react": "^16.14.0",
@@ -19,6 +21,9 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/react": "^6.0.26",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/react-hooks": "^3.4.2",
@@ -33,6 +38,7 @@
     "@types/webpack-dev-server": "^3.11.0",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.13.0",
@@ -49,6 +55,7 @@
     "jest-styled-components": "^7.0.3",
     "lint-staged": "^10.4.2",
     "prettier": "^2.1.2",
+    "react-is": "^16.13.1",
     "react-test-renderer": "^16.14.0",
     "ts-jest": "^26.4.1",
     "ts-loader": "^8.0.4",

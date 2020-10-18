@@ -2,8 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 
 import { Home } from './pages';
-import { GlobalStyle } from './styles/GlobalStyle';
-import { theme } from './styles/theme';
+import { GlobalStyle, theme } from './styles';
 
 export const App: React.FC = () => (
   <ThemeProvider theme={theme}>
