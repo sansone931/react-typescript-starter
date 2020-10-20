@@ -7,9 +7,9 @@ const StyledHeader = styled.h1<{ variant: Variant }>`
   color: ${({ theme, variant }) => theme.colors[variant]};
 `;
 
-export interface HeaderProps {
+export type HeaderProps = {
   variant?: Variant;
-}
+};
 
 export const Header: React.FC<HeaderProps> = ({
   variant = 'primary',
