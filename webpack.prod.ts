@@ -12,14 +12,7 @@ const config: webpack.Configuration = merge(common, {
   },
   optimization: {
     runtimeChunk: 'single',
-    splitChunks: {
-      cacheGroups: {
-        vendors: {
-          name: 'vendors',
-          chunks: 'all',
-        },
-      },
-    },
+    splitChunks: { chunks: 'all' },
   },
   plugins: [new CleanWebpackPlugin()],
 });
