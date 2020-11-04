@@ -30,6 +30,7 @@ A basic React app to start a new project.
 | `npm run lint`            | Run ESLint                                                                     |
 | `npm run lint:fix`        | Run ESLint and automatically fix problems                                      |
 | `npm run format`          | Format files with Prettier                                                     |
+| `npm run format:check`    | Check formatting of files with Prettier but don't format anything              |
 | `npm run typecheck`       | Check for TypeScript errors without emitting output                            |
 | `npm run storybook`       | Build Storybook in development mode and serve at `http://localhost:9000`       |
 | `npm run build:storybook` | Build Storybook to `storybook-static/` in production mode                      |
