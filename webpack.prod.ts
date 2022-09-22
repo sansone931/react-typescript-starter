@@ -9,6 +9,15 @@ const config: Configuration = merge(common, {
     filename: '[name].[contenthash].js',
     clean: true,
   },
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        exclude: /node_modules/,
+        use: ['ts-loader'],
+      },
+    ],
+  },
   optimization: {
     runtimeChunk: 'single',
     splitChunks: { chunks: 'all' },

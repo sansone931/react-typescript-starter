@@ -1,9 +1,8 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
-import React from 'react';
 
 import { Header, HeaderProps } from './Header';
 
-type Args = React.PropsWithChildren<HeaderProps>;
+type Args = HeaderProps;
 
 const meta: Meta<Args> = {
   component: Header,

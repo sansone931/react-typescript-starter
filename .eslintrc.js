@@ -29,6 +29,8 @@ module.exports = {
   plugins: ['react', 'jsx-a11y', '@typescript-eslint', 'import'],
   rules: {
     'react/prop-types': 'off',
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
     'max-len': ['warn', { code: 120 }],
     'no-console': 'warn',
     quotes: ['error', 'single'],

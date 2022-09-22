@@ -1,10 +1,10 @@
-import React from 'react';
+import { FC } from 'react';
 import { ThemeProvider } from 'styled-components';
 
 import { Home } from './pages';
 import { GlobalStyle, theme } from './styles';
 
-export const App: React.FC = () => (
+export const App: FC = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Home />

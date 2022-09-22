@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { FC, ReactNode } from 'react';
 import styled from 'styled-components';
 
 type Variant = 'primary' | 'secondary';
@@ -12,7 +12,6 @@ export type HeaderProps = {
   children: ReactNode;
 };
 
-export const Header: React.FC<HeaderProps> = ({
-  variant = 'primary',
-  children,
-}) => <StyledHeader variant={variant}>{children}</StyledHeader>;
+export const Header: FC<HeaderProps> = ({ variant = 'primary', children }) => (
+  <StyledHeader variant={variant}>{children}</StyledHeader>
+);
