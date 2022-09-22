@@ -1,7 +1,14 @@
 module.exports = {
   core: {
     builder: 'webpack5',
+    disableTelemetry: true,
   },
-  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(ts|tsx)'],
+  stories: [
+    {
+      directory: '../src',
+      files: '**/*.stories.*',
+      titlePrefix: 'App',
+    },
+  ],
   addons: ['@storybook/addon-essentials'],
 };
