@@ -8,9 +8,9 @@ const config: Configuration = merge(common, {
   devtool: 'inline-source-map',
   devServer: {
     compress: true,
-    contentBase: path.resolve(__dirname, 'dist'),
+    static: { directory: path.resolve(__dirname, 'dist') },
     historyApiFallback: true,
-    stats: 'minimal',
+    devMiddleware: { stats: 'minimal' },
   },
 });
 
